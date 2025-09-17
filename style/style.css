@@ -1,0 +1,159 @@
+body {
+    margin: 0;
+    padding: 0;
+    min-width: 1200px;
+    font-family: sans-serif;
+    font-size: 16px;
+    line-height: 24px;
+    font-weight: 400;
+    text-transform: none;
+    color: #000022;
+    background: url(../pic/raspberry-snowflakes.png);
+}
+
+.wrapper {
+    width: 960px;
+    margin: auto;
+    font-family: "Shadows Into Light", cursive, sans-serif;
+    font-weight: 400;
+}
+
+a {
+    text-decoration: none;
+}
+
+
+.site-navigation {
+    display: flex;  
+    margin-top: 20px;
+    color: #000022;
+    background-color: #800000;
+    border: 2px solid darkgreen;
+    border-radius: 20px;
+    text-transform: uppercase;
+    font-family: "McLaren", cursive, sans-serif;
+    font-weight: 400;
+}
+
+.site-navigation img {
+    padding-left: 5px;
+    padding-top: 5px;
+}
+
+.visually-hidden {
+    position: absolute;
+    width: 1px;
+    height: 1px;
+    margin: -1px;
+    border: 0;
+    padding: 0;
+    overflow: hidden;
+}
+
+.various {
+    display: flex;
+    list-style: none;
+}
+
+.item {
+    padding: 25px;
+}
+
+.item a {
+    color: #00FF00;
+}
+
+.item a:hover {
+    color: white;
+}
+
+.user-navigation {
+    list-style: none;
+}
+
+.user {
+    padding: 20px;
+}
+
+
+.container {
+    display: flex;
+    margin-top: 20px;
+}
+
+.leftmenu {
+    background-color: #A52A2A;
+    border: 2px solid darkgreen;
+    border-radius: 20px;
+    margin-right: 10px;
+}
+
+.leftmenu a {
+    color: #FA8072;	
+}
+
+.leftmenu a:hover {
+    color: pink;
+}
+
+.addition {
+    list-style: none;
+    padding: 5px;
+}
+
+.maincontent {
+    background-color: #FFB6C1;
+    border: 2px solid darkgreen;
+    border-radius: 20px;
+}
+
+blockquote{
+    font-family: "PT Serif", serif;
+}
+
+.rightmenu {
+    background-color: #A52A2A;
+    flex-grow: 1;
+    border: 2px solid darkgreen;
+    border-radius: 20px;
+    margin-left:  10px;
+    font-weight: 400;
+}
+
+
+.pages {
+    text-transform: uppercase;
+}
+
+.info {
+    list-style: none;
+    
+}
+
+.page-item {
+    list-style-image: url(pic/icon.ico);
+    font-family: "Big Shoulders Text", cursive, sans-serif;
+}
+
+.page-item a {
+    color: #FFA07A;	
+}
+
+.option {
+    background-color: rgba(157, 176, 184, 0.616);
+    margin: 35px;
+    padding: 15px;
+    border-radius: 20px;
+}
+
+.footer {
+    background-color: whitesmoke;
+    color: red;
+    font-weight: 700;
+    font-size: 24px;
+    border: 3px solid darkmagenta;
+    border-radius: 30px;
+    height: 150px;
+    margin-bottom: 50px;
+    padding: 10px;
+}
